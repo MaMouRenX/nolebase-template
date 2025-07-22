@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 </script>
 
 <template>
@@ -13,4 +13,4 @@
   border-top: 1px solid var(--vp-c-divider-light);
   padding-top: 24px;
 }
-</style>
+</style> -->
