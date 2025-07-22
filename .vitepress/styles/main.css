@@ -151,22 +151,22 @@ html, body {
 }
 
 /* 正文结尾的 CC 协议链接基本样式 */
-.footer-cc-link {
+/* .footer-cc-link {
   color: var(--vp-c-text-2);
   transition: all 0.3s ease;
   text-decoration: underline;
   text-decoration-color: rgb(114, 114, 114);
-}
+} */
 
 /* 正文结尾的 CC 协议链接鼠标 hover 样式 */
-.footer-cc-link:hover {
+/* .footer-cc-link:hover {
   color: var(--vp-c-text-1);
-}
+} */
 
 /* 正文结尾的 CC 协议链接暗色模式下鼠标 hover 样式 */
-.dark .footer-cc-link:hover {
+/* .dark .footer-cc-link:hover {
   color: var(--vp-c-text-1);
-}
+} */
 
 /* 调整文档页面页脚到正文结尾的间隔距离 */
 .VPDoc .VPDocFooter {
