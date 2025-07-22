@@ -203,7 +203,8 @@ html, body {
 /**
   Discord 链接按钮样式
 */
-/* .VPHero.VPHomeHero .actions a[href="https://discord.gg/XuNFDcDZGj"] {
+
+.VPHero.VPHomeHero .actions a[href="https://discord.gg/XuNFDcDZGj"] {
   color: white;
   background-color: #404eed;
 }
@@ -216,12 +217,13 @@ html, body {
 .VPHero.VPHomeHero .actions a[href="https://discord.gg/XuNFDcDZGj"]:active {
   color: white;
   background-color: #404eed;
-} */
+}
 
 /**
   暗色模式下 Discord 链接按钮样式
 */
-/* .dark .VPHero.VPHomeHero .actions a[href="https://discord.gg/XuNFDcDZGj"] {
+
+.dark .VPHero.VPHomeHero .actions a[href="https://discord.gg/XuNFDcDZGj"] {
   color: white;
   background-color: #444c9e;
 }
@@ -234,12 +236,13 @@ html, body {
 .dark .VPHero.VPHomeHero .actions a[href="https://discord.gg/XuNFDcDZGj"]:active {
   color: white;
   background-color: #444c9e;
-} */
+}
 
 /**
   GitHub 链接按钮样式
 */
-/* .VPHero.VPHomeHero .actions a[href="https://github.com/nolebase/integrations"] {
+
+.VPHero.VPHomeHero .actions a[href="https://github.com/nolebase/integrations"] {
   color: white;
   background-color: #000;
 }
@@ -252,12 +255,13 @@ html, body {
 .VPHero.VPHomeHero .actions a[href="https://github.com/nolebase/integrations"]:active {
   color: white;
   background-color: #000;
-} */
+}
 
 /**
   暗色模式下 GitHub 链接按钮样式
 */
-/* .dark .VPHero.VPHomeHero .actions a[href="https://github.com/nolebase/integrations"] {
+
+.dark .VPHero.VPHomeHero .actions a[href="https://github.com/nolebase/integrations"] {
   color: white;
   background-color: #4b4b4b;
 }
@@ -270,4 +274,4 @@ html, body {
 .dark .VPHero.VPHomeHero .actions a[href="https://github.com/nolebase/integrations"]:active {
   color: white;
   background-color: #4b4b4b;
-} */
+}
