@@ -64,9 +64,9 @@ const ExtendedTheme: Theme = {
       'doc-top': () => [
         h(NolebaseHighlightTargetedHeading),
       ],
-      'doc-footer-before': () => [
-        h(DocFooter),
-      ],
+      // 'doc-footer-before': () => [
+      //   h(DocFooter),
+      // ],
       'nav-bar-content-after': () => [
         h(NolebaseEnhancedReadabilitiesMenu),
         h(Share),
@@ -85,7 +85,7 @@ const ExtendedTheme: Theme = {
      */
 
     app.component('HomePage', HomePage)
-    app.component('DocFooter', DocFooter)
+    // app.component('DocFooter', DocFooter)
     app.component('Share', Share)
     app.component('TocList', TocList)
     app.component('AppContainer', AppContainer)
