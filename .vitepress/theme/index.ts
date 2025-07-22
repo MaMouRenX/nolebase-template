@@ -36,7 +36,6 @@ import {
 import { creators } from '../creators'
 
 import AppContainer from './components/AppContainer.vue'
-// import DocFooter from './components/DocFooter.vue'
 import HomePage from './components/HomePage.vue'
 import Share from './components/Share.vue'
 import TocList from './components/TocList.vue'
@@ -64,9 +63,6 @@ const ExtendedTheme: Theme = {
       'doc-top': () => [
         h(NolebaseHighlightTargetedHeading),
       ],
-      // 'doc-footer-before': () => [
-      //   h(DocFooter),
-      // ],
       'nav-bar-content-after': () => [
         h(NolebaseEnhancedReadabilitiesMenu),
         h(Share),
@@ -85,7 +81,6 @@ const ExtendedTheme: Theme = {
      */
 
     app.component('HomePage', HomePage)
-    // app.component('DocFooter', DocFooter)
     app.component('Share', Share)
     app.component('TocList', TocList)
     app.component('AppContainer', AppContainer)
